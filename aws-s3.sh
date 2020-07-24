@@ -1,0 +1,17 @@
+#/bin/bash
+
+
+DB_HOST=$1
+DB_PASS=$2
+DB_NAME=$3
+AWS_SECRET_ACCESS_KEY=$4
+BUCKET=$5
+
+DATE=$(date +%d%m%y%H%M%S)
+BACKUP=$3_$DATE.sql
+
+mysqldump -u root -h $DB_HOST -p$DB_PASS $DB_NAME > /tmp/$BACKUP && \
+export AWS_ACCESS_KEY_ID=AKIATWOGAXYA7HAZ4VVL && \
+export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY && \
+aws s3 cp /tmp/$BACKUP s3://$BUCKET/$BACKUP
+rm /tmp/$BACKUP

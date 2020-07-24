@@ -1,0 +1,22 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>read-user</string>
+      <string>readuser_2445961077185753625</string>
+    </entry>
+    <entry>
+      <string>ansible-user</string>
+      <string>ansibleuser_6290121259329736926</string>
+    </entry>
+    <entry>
+      <string>admin</string>
+      <string>admin_4685158059458347618</string>
+    </entry>
+    <entry>
+      <string>build-user</string>
+      <string>builduser_4955465799516141562</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>

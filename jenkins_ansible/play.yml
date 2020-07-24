@@ -1,0 +1,4 @@
+- hosts: test1
+  tasks:
+
+    - shell: echo Hello Gundu Mari > /tmp/ansible-file.txt

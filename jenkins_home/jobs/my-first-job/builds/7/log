@@ -1,0 +1,8 @@
+Started by user [8mha:////4JSu0mqsdKrJId0z7j7uizvcVtTe+0fP97PdtmtzEqPqAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins6426612414088069780.sh
++ Name=Gourav
++ date
++ echo Hello Gourav, Current date & time : Thu Jul 16 07:13:35 UTC 2020
+Finished: SUCCESS
